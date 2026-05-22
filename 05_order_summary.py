@@ -1,0 +1,6 @@
+names = ["Hitesh", "Meera", "Sam", "Ali"]
+bills = [50, 70, 100, 55]
+
+for name, bill in zip(names , bills):
+    print(f"Order ready for {name} with bill amount {bill}")
+    
